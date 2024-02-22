@@ -1,6 +1,6 @@
 {
   "name": "@leondaz/eslint-typescript-recommended",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "entrypoint": "index.js",
   "description": "A preset for ESlint having some reasonable defaults",
