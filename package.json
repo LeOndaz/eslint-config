@@ -1,0 +1,15 @@
+{
+  "name": "@leondaz/eslint-typescript-recommended",
+  "version": "1.0.5",
+  "type": "module",
+  "entrypoint": "index.js",
+  "description": "A preset for ESlint having some reasonable defaults",
+  "scripts": {},
+  "author": "Ahmed Ibrahim <ahmeddark369@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeOndaz/eslint-typescript-recommended"
+  },
+  "keywords": ["eslint", "eslintconfig", "raycast"]
+}
