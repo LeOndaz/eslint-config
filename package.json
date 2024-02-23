@@ -1,6 +1,6 @@
 {
-  "name": "@leondaz/eslint-typescript-recommended",
-  "version": "1.0.9",
+  "name": "@leondaz/ts-recommended",
+  "version": "1.0.10",
   "type": "module",
   "entrypoint": "index.js",
   "description": "A preset for ESlint having some reasonable defaults",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LeOndaz/eslint-typescript-recommended"
+    "url": "https://github.com/LeOndaz/eslint-config-ts-recommended"
   },
   "keywords": ["eslint", "eslintconfig", "raycast"],
   "peerDependencies": {
