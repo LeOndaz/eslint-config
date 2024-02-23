@@ -32,6 +32,9 @@ module.exports = {
       "@typescript-eslint/no-useless-template-literals": "error",
       "@typescript-eslint/non-nullable-type-assertion-style": "error",
 
+      "comma-dangle": "off",
+      "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
+      
       "@typescript-eslint/prefer-destructuring": "error",
 
       "@typescript-eslint/prefer-for-of": "error",
