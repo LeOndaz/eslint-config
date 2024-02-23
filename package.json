@@ -1,17 +1,23 @@
 {
-  "name": "@leondaz/ts-recommended",
-  "version": "1.0.10",
-  "type": "module",
+  "name": "@leondaz/eslint-config",
+  "version": "1.0.11",
+  "type": "commonjs",
   "entrypoint": "index.js",
   "description": "A preset for ESlint having some reasonable defaults",
   "scripts": {},
   "author": "Ahmed Ibrahim <ahmeddark369@gmail.com>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LeOndaz/eslint-config-ts-recommended"
+  "publishConfig": {
+    "access": "public"
   },
-  "keywords": ["eslint", "eslintconfig", "raycast"],
+  "repository": {
+    "url": "git+https://github.com/LeOndaz/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "raycast"
+  ],
   "peerDependencies": {
     "eslint": "^8.0.0"
   }
