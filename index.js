@@ -1,76 +1,74 @@
 module.exports = {
+  extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  ignorePatterns: ["node_modules/", "dist/"],
+  plugins: ["@typescript-eslint"],
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaVersion: "latest",
+    project: "./tsconfig.json",
+  },
   rules: {
-    extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
-    ignorePatterns: ["node_modules/", "dist/"],
-    plugins: ["@typescript-eslint"],
-    parser: "@typescript-eslint/parser",
-    parserOptions: {
-      ecmaVersion: "latest",
-      project: "./tsconfig.json",
-    },
-    rules: {
-      camelcase: "error",
-      eqeqeq: "error",
-      indent: ["error", 2],
-      "spaced-comment": "error",
-      "default-case": "error",
-      "no-alert": "error",
-      "no-empty": "error",
-      "no-regex-spaces": "error",
-      "prefer-const": "error",
-      "use-isnan": "error",
+    camelcase: "error",
+    eqeqeq: "error",
+    indent: ["error", 2],
+    "spaced-comment": "error",
+    "default-case": "error",
+    "no-alert": "error",
+    "no-empty": "error",
+    "no-regex-spaces": "error",
+    "prefer-const": "error",
+    "use-isnan": "error",
 
-      "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
-      "@typescript-eslint/no-explicit-any": "error",
-      "@typescript-eslint/no-unnecessary-condition": "error",
-      "@typescript-eslint/no-unnecessary-type-assertion": "error",
-      "@typescript-eslint/no-unnecessary-type-arguments": "error",
-      "@typescript-eslint/no-unnecessary-qualifier": "error",
-      "@typescript-eslint/no-unsafe-argument": "error",
-      "@typescript-eslint/no-unnecessary-type-constraint": "error",
-      "@typescript-eslint/no-unsafe-enum-comparison": "error",
-      "@typescript-eslint/no-useless-template-literals": "error",
-      "@typescript-eslint/non-nullable-type-assertion-style": "error",
+    "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-unnecessary-condition": "error",
+    "@typescript-eslint/no-unnecessary-type-assertion": "error",
+    "@typescript-eslint/no-unnecessary-type-arguments": "error",
+    "@typescript-eslint/no-unnecessary-qualifier": "error",
+    "@typescript-eslint/no-unsafe-argument": "error",
+    "@typescript-eslint/no-unnecessary-type-constraint": "error",
+    "@typescript-eslint/no-unsafe-enum-comparison": "error",
+    "@typescript-eslint/no-useless-template-literals": "error",
+    "@typescript-eslint/non-nullable-type-assertion-style": "error",
 
-      "comma-dangle": "off",
-      "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
-      
-      "@typescript-eslint/prefer-destructuring": "error",
+    "comma-dangle": "off",
+    "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
 
-      "@typescript-eslint/prefer-for-of": "error",
+    "@typescript-eslint/prefer-destructuring": "error",
 
-      "no-return-await": "off",
-      "@typescript-eslint/return-await": "error",
+    "@typescript-eslint/prefer-for-of": "error",
 
-      "@typescript-eslint/prefer-as-const": "error",
+    "no-return-await": "off",
+    "@typescript-eslint/return-await": "error",
 
-      "class-methods-use-this": "off",
-      "@typescript-eslint/class-methods-use-this": "error",
+    "@typescript-eslint/prefer-as-const": "error",
 
-      "max-params": "off",
-      "@typescript-eslint/max-params": ["error", { max: 3 }],
+    "class-methods-use-this": "off",
+    "@typescript-eslint/class-methods-use-this": "error",
 
-      semi: "off",
-      "@typescript-eslint/semi": ["error", "always"],
+    "max-params": "off",
+    "@typescript-eslint/max-params": ["error", {max: 3}],
 
-      quotes: "off",
-      "@typescript-eslint/quotes": [
-        "error",
-        "single",
-        {
-          allowTemplateLiterals: true,
-        },
-      ],
+    semi: "off",
+    "@typescript-eslint/semi": ["error", "always"],
 
-      "@typescript-eslint/await-thenable": "error",
+    quotes: "off",
+    "@typescript-eslint/quotes": [
+      "error",
+      "single",
+      {
+        allowTemplateLiterals: true,
+      },
+    ],
 
-      "@typescript-eslint/no-this-alias": "error",
+    "@typescript-eslint/await-thenable": "error",
 
-      "no-throw-literal": "off",
-      "@typescript-eslint/no-throw-literal": "error",
-    },
-    globals: {
-      Node: true,
-    },
+    "@typescript-eslint/no-this-alias": "error",
+
+    "no-throw-literal": "off",
+    "@typescript-eslint/no-throw-literal": "error",
+  },
+  globals: {
+    Node: true,
   },
 };
